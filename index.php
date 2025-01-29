@@ -27,6 +27,7 @@
         <select name="sort_by" class="form-control me-2">
             <option value="name">Name</option>
             <option value="age">Age</option>
+            <option value="id">id</option>
         </select>
         <button type="submit" class="btn btn-warning">Sort</button>
     </form>

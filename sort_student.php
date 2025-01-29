@@ -14,6 +14,9 @@ if ($sortBy == 'name') {
 } elseif ($sortBy == 'age') {
     $sql .= " ORDER BY age ASC";
 }
+else{
+    $sql .= " ORDER BY `id`";
+}
 
 // Execute query
 $result = mysqli_query($conn, $sql);
